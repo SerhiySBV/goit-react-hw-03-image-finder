@@ -1,7 +1,8 @@
 export const SearchBar = ({ onSubmit }) => {
   const handleSubmit = e => {
     e.preventDefault();
-    onSubmit(e.currentTarget.elements.query.value);
+    onSubmit(e.currentTarget.elements.query.value.trim());
+    e.currentTarget.reset();
   };
 
   return (
