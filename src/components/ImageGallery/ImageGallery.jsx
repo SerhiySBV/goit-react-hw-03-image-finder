@@ -1,6 +1,4 @@
-import { Component } from 'react';
-
-import { ImageGalleryItem } from 'components/ImageGallery/ImageGalleryItem/ImageGalleryItem';
+import { ImageGalleryItem } from './ImageGalleryItem/ImageGalleryItem';
 
 // export class ImageGallery extends Component {
 //   state = {
